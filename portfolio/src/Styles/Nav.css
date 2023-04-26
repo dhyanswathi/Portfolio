@@ -1,0 +1,38 @@
+.pic {
+    clip-path: circle(38%);
+    margin: 20px 10px;
+    padding: 10px;
+    transform: scale(1.2);
+}
+
+.nav-sections {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 200%;
+}
+
+.nav-sections a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-sections a:hover {
+    text-decoration: none;
+    color: rgb(50, 196, 165);
+    transform: scale(1.2);
+}
+
+.icon-group {
+    margin-top: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.icon:hover {
+   transform: scale(1.2);
+}

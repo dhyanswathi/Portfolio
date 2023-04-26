@@ -12,7 +12,11 @@ function About() {
       <Grid>
       <Grid.Col span={3}><Nav></Nav></Grid.Col>
       <Grid.Col span={9}>
-      <h2>Hi! I am a full-stack .Net developer</h2>
+      <h1>Hi! I am a full-stack .Net developer!</h1>
+      <h2>Based in Stockholm, Sweden.</h2>
+      <Link to="/Contact">
+                        <button className='welcome-btn'>Contact Me</button>
+            </Link>
         <section>
             <p>Passionate & curious junior developer with good problem solving skills.
             Enthusiastic, responsible & flexible person with ability to learn and collaborate 
@@ -20,12 +24,10 @@ function About() {
             agile methods, TDD, CI/CD and kanban. Previously worked as an ayurvedic doctor & changed careers to follow my passion 
             for web development.
             </p>
-            <Link to="/Contact">
-                        <button className='welcome-btn'>Contact Me</button>
-            </Link>
+           
         </section>
         <section>
-        <img src={swathi} alt="welcome pic" className='welcome-pic' />
+        something
         </section>
       </Grid.Col>
       </Grid>
