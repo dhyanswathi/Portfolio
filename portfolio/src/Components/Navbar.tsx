@@ -1,16 +1,16 @@
-import { Header } from "@mantine/core";
-import React from "react";
+import { Navbar } from '@mantine/core';
 import { Link } from "react-router-dom";
+import React from "react";
+
 
 function Nav() {
     return (
-        <><Header height={{ base: 50, md: 70 }} p="md">
-          <span>Swathi Sidharthan</span>
-          <Link to="/About">About Me</Link>
+        <><Navbar width={{ base: 250 }} height={500} p="xs">
+        <Link to="/About">About Me</Link>
           <Link to="/Skills">Skills</Link>
           <Link to="/Projects">My works</Link>
           <Link to="/Contact">Contact Me</Link>
-          </Header></>
+      </Navbar></>
     )
 }
 

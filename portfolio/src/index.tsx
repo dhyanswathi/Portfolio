@@ -8,7 +8,6 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
-import Nav from './Components/Navbar';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,7 +15,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Router>
-      <Nav></Nav>
       <Routes>
         <Route path="/" element={<App/>} />
         <Route path="/About" element={<About/>} />
