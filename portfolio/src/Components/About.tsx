@@ -1,15 +1,15 @@
 import React from "react";
 import Nav from "./Navbar";
-import { MantineProvider, Grid } from '@mantine/core';
+import { Grid } from '@mantine/core';
 import '../Styles/About.css';
 
 function About() {
     return (
-        <><MantineProvider>
+        <>
           <Grid>
             <Grid.Col span={3}><Nav></Nav></Grid.Col>
             <Grid.Col span={9}>
-              <h1 className="heading">Hi! I am a<span> full-stack .Net </span>developer!</h1>
+              <h1 className="heading">Hi! I am a<span className="green"> full-stack .Net </span>developer!</h1>
               <h2 className="sub-heading">Based in Stockholm, Sweden.</h2>
               <section className="know-me">   
                 <article className="summary">
@@ -22,18 +22,18 @@ function About() {
                   
                 </article>
                 <article className="basic-info">
-                  <span>Name: Swathi Sidharthan</span><br/>
+                  <span>Name: </span><span className="green">Swathi Sidharthan</span><br/>
                   <hr></hr>
                   <span>Email: swathysidharthan@gmail.com</span><br/>
                   <hr></hr>
                   <span>Address:  Dellensvägen 22, 120 58 Årsta</span><br/>
                   <hr></hr>
-                  <span>City: Stockholm</span><br/>
+                  <span>City:</span> <span className="green">Stockholm</span><br/>
                 </article>
               </section> 
             </Grid.Col>
           </Grid>
-        </MantineProvider></>
+       </>
     )
 }
 
