@@ -9,7 +9,7 @@ function Nav() {
         <><Navbar  width={{ base: 260 }} height={700} p="xs">
           <img src={swathi} alt="welcome pic" className='pic' />
           <section className='nav-sections'>
-            {/* <span>Swathi Sidharthan</span> */}
+            <Link to="/"><span className='green'>Swathi Sidharthan</span></Link>
             <Link to="/About">About Me</Link>
 
             <Link to="/Skills">Skills</Link>
