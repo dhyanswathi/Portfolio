@@ -1,5 +1,37 @@
-.welcome-pic {
-    padding: 20px 20px;
-    height: 440px;
-    display: flex;
+body {
+    background-color: #17191b;
+  color: #efeaea;
+}
+.know-me {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    text-align: left;
+    font-size: 20px;
+}
+
+.heading {
+    margin-top: 50px;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-heading {
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+   font-size: 30px;
+}
+
+.heading span {
+    color: rgb(50, 196, 165);
+}
+
+.summary {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 30px;
+    color: rgba(255, 255, 255, 0.551);
+}
+
+.basic-info {
+    padding-left: 10px;
+    padding-top: 30px;
 }

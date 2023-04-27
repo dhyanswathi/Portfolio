@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.93);
+
+  background-color: #17191b;
   color: #efeaea;
+}
+
+body {
+  overflow: hidden;
 }

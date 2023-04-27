@@ -5,7 +5,7 @@ import Nav from "./Navbar";
 function Skills() {
     return (
         <>
-        <MantineProvider theme={{ colorScheme: 'dark' }}>
+        <MantineProvider>
       <Grid>
       <Grid.Col span={3}><Nav></Nav></Grid.Col>
       <Grid.Col span={9}>
