@@ -7,3 +7,7 @@
 .skill-icons img {
     margin-bottom: 20px;
 }
+
+.cards {
+    display: flex;
+}

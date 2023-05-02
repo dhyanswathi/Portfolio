@@ -28,7 +28,7 @@ export default function Appshell() {
       navbarOffsetBreakpoint="sm"
       asideOffsetBreakpoint="sm"
       navbar={
-        <Navbar p="md" hiddenBreakpoint="sm" hidden={!false} width={{ sm: 200, lg: 300 }}>
+        <Navbar p="md" hiddenBreakpoint="sm" hidden={!false} width={{ sm: 160, lg: 260 }}>
                     <img src={swathi} alt="welcome pic" className='pic' />
           <section className='nav-sections'>
             <Text component={Link} variant='link' to="/">

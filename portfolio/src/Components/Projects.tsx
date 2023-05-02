@@ -1,31 +1,16 @@
 import React from "react";
 import {Card, Image, Text, Group, Button } from '@mantine/core';
-import { Carousel } from '@mantine/carousel';
 import { projects } from "../Data/projects";
+import '../Styles/Skills.css';
 
 function Projects() {
     return (
         <>
       <section id="projects" className="projects">
-      <div className="group">
-          <h1 className="my-works">
-            Apps I've Built
+          <h1 className="sub-heading green">
+            Portfolio
           </h1>
-          <p className="des">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
-          </p>
-        </div>
-        <Carousel
-      withIndicators
-      height={400}
-      slideSize="75%"
-      slideGap="md"
-      loop
-      align="start"
-      slidesToScroll={1}
-    >
+          <article className="cards">
           {projects.map((project) => (<Card shadow="sm" padding="lg" radius="md" withBorder>
             <Card.Section>
                 <Image
@@ -48,8 +33,7 @@ function Projects() {
               key={project.image}
               className="ss"><Button>Go to Project</Button>
             </a></Card>
-          ))}
-        </Carousel>
+          ))}</article>
     </section>
         </>
     )

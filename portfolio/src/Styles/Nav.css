@@ -1,4 +1,4 @@
-.mantine-13828zk{
+.mantine-rdewg0{
     background-color: #111418!important;
 }
 
@@ -13,13 +13,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    line-height: 300%;
 }
 
 .nav-sections a {
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+    padding-top: 15px ;
 }
 
 .nav-sections a:hover {
