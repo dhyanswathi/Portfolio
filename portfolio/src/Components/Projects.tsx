@@ -12,7 +12,7 @@ function Projects() {
       <Grid.Col span={9}>
       <section id="projects" className="projects">
       <div className="group">
-          <h1 className="ss">
+          <h1 className="my-works">
             Apps I've Built
           </h1>
           <p className="des">
@@ -24,11 +24,11 @@ function Projects() {
         <Carousel
       withIndicators
       height={400}
-      slideSize="33.333333%"
+      slideSize="75%"
       slideGap="md"
       loop
       align="start"
-      slidesToScroll={3}
+      slidesToScroll={1}
     >
           {projects.map((project) => (<Card shadow="sm" padding="lg" radius="md" withBorder>
             <Card.Section>
