@@ -12,6 +12,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
 import '../Styles/Nav.css';
+import Home from './Home';
 
 export default function Appshell() {
   const theme = useMantineTheme();
@@ -33,7 +34,7 @@ export default function Appshell() {
             <Text component={Link} variant='link' to="/">
                <span className='green'>Swathi Sidharthan</span>
             </Text>
-            <Text component={Link} variant='link' to="/">About Me</Text>
+            <Text component={Link} variant='link' to="/About">About Me</Text>
 
             <Text component={Link} variant='link' to="/Skills">Skills</Text>
 
@@ -48,7 +49,8 @@ export default function Appshell() {
         </Navbar>
       }>
         <Routes>
-            <Route path='/' element={<About/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/About' element={<About/>}/>
             <Route path='/Skills' element={<Skills/>}/>
             <Route path='/Projects' element={<Projects/>}/>
             <Route path='/Contact' element={<Contact/>}/>
