@@ -1,15 +1,11 @@
 import React from "react";
-import {Card, Image, Text, Group, Grid, Button } from '@mantine/core';
+import {Card, Image, Text, Group, Button } from '@mantine/core';
 import { Carousel } from '@mantine/carousel';
-import Nav from "./Navbar";
 import { projects } from "../Data/projects";
 
 function Projects() {
     return (
         <>
-      <Grid>
-      <Grid.Col span={3}><Nav></Nav></Grid.Col>
-      <Grid.Col span={9}>
       <section id="projects" className="projects">
       <div className="group">
           <h1 className="my-works">
@@ -55,8 +51,6 @@ function Projects() {
           ))}
         </Carousel>
     </section>
-      </Grid.Col>
-      </Grid>
         </>
     )
 }

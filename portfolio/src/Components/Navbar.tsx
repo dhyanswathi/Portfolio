@@ -5,6 +5,7 @@ import swathi from "../Pictures/swathi.jpg";
 import '../Styles/Nav.css';
 
 function Nav() {
+  
     return (
         <><Navbar  width={{ base: 260 }} height={700} p="xs">
           <img src={swathi} alt="welcome pic" className='pic' />
