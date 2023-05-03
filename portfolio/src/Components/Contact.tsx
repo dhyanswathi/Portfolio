@@ -12,7 +12,7 @@ function Contact() {
     const currentForm = form.current;
     if (currentForm == null) return;
 
-    emailjs.sendForm('service_93flvy6', 'template_nwt7xv8', currentForm.current, 'NSV6aTQjw2wXfm8vQ')
+    emailjs.sendForm('service_93flvy6', 'template_nwt7xv8', '#emailform', 'NSV6aTQjw2wXfm8vQ')
       .then((result) => {
         console.log(result.text);
     }, (error) => {
@@ -26,7 +26,7 @@ function Contact() {
               Swathi Sidharthan
             </article>
             <article className="email">
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} id='emailform'>
               <label>Name</label>
               <input type="text" name="user_name" />
               <label>Email</label>
