@@ -24,10 +24,10 @@ export const projects = [
         link: "https://github.com/dhyanswathi/ToyWorld"
     },
     {
-        title: "Flight Finder",
-        subtitle: "Asp.Net WebAPI, ",
-        description: "finding flights",
+        title: "Flight Finder API",
+        subtitle: "Asp.Net WebAPI, SQL Server, Entity Framework, Authentication & Authorization with JWT Tokens",
+        description: "A flight booking API providing all possible flights and their corresponding information, a specific flight, connecting flights to a specific flight, etc.",
         image: "../Pictures/toyworld.png",
-        link: "https://github.com/dhyanswathi/ToyWorld"
+        link: "https://github.com/dhyanswathi/Flight-finder"
     }
 ]
