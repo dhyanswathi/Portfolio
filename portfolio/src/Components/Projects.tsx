@@ -4,6 +4,9 @@ import { projects } from "../Data/projects";
 import '../Styles/Skills.css';
 
 function Projects() {
+    //const baseUrl = 'portfolio/src/Pictures/';
+    //const theme = useMantineTheme();
+
     return (
         <>
       <section id="projects" className="projects">
@@ -11,11 +14,11 @@ function Projects() {
             Portfolio
           </h1>
           <article className="cards">
-          {projects.map((project) => (<Card shadow="sm" padding="lg" radius="md" withBorder>
+          {projects.map((project) => (<Card shadow="sm" padding="lg" radius="md" >
             <Card.Section>
                 <Image
                   alt="gallery"
-                  height={160} width={90}
+                  height={200} width={300}
                   src={project.image}
                 /></Card.Section>
                 <Group position="apart" mt="md" mb="xs">
@@ -29,7 +32,7 @@ function Projects() {
                   
                   <Text size="sm" color="dimmed">{project.description}</Text>
                   <a
-              href={project.link}
+              href={project.link} target="_blank" rel="noreferrer"
               key={project.image}
               className="ss"><Button>Go to Project</Button>
             </a></Card>
