@@ -1,3 +1,19 @@
-.contact {
-    display: flex;
+.email {
+  width: 530px;
+  margin-left: 16px;
+}
+
+.mantine-1ejqehl {
+    padding-left: 0;
+}
+
+.mantine-7c7vou {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 480px) {
+    .name-email {
+        display: flex;
+        justify-content: space-between;
+    }
 }

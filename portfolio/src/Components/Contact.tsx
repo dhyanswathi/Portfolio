@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Button, TextInput, Textarea } from '@mantine/core';
 import emailjs from '@emailjs/browser';
 import '../Styles/Contact.css';
 
@@ -23,18 +24,20 @@ function Contact() {
     return (
         <>
           <section className="contact">
-            <article className="info">
-              Swathi Sidharthan
-            </article>
             <article className="email">
             <form ref={form} onSubmit={sendEmail} id='emailform'>
-              <label>Name</label>
-              <input type="text" name="user_name" />
-              <label>Email</label>
-              <input type="email" name="user_email" />
-              <label>Message</label>
-              <textarea name="message" />
-              <input type="submit" value="Send" />
+            <h2 className='sub-heading green'>Get in touch</h2>
+              <article className='name-email'>
+                <TextInput name="user_name" required size='lg'
+                placeholder="Name"/>
+                <TextInput name="user_email" type='email' required size='lg'
+                placeholder="Email"/>
+              </article>
+              <Textarea
+                placeholder="Tell me more..." name='message'
+                size='lg'/>
+              <Button color="teal" type="submit">Send</Button>
+
             </form>
             </article>
           </section>
