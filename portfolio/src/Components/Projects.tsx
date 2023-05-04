@@ -14,7 +14,7 @@ function Projects() {
             Portfolio
           </h1>
           <article className="cards">
-          {projects.map((project) => (<Card shadow="sm" padding="lg" radius="md" >
+          {projects.map((project) => (<Card shadow="md" padding="lg" radius="md" >
             <Card.Section>
                 <Image
                   alt="gallery"
@@ -22,7 +22,7 @@ function Projects() {
                   src={project.image}
                 /></Card.Section>
                 <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>
+                <Text weight={500} className="green">
                     {project.title}
                   </Text>
                   </Group>
@@ -34,7 +34,7 @@ function Projects() {
                   <a
               href={project.link} target="_blank" rel="noreferrer"
               key={project.image}
-              className="ss"><Button>Go to Project</Button>
+              className="ss"><Button color="teal">Go to Project</Button>
             </a></Card>
           ))}</article>
     </section>

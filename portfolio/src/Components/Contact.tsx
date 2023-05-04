@@ -15,6 +15,7 @@ function Contact() {
     emailjs.sendForm('service_93flvy6', 'template_nwt7xv8', '#emailform', 'NSV6aTQjw2wXfm8vQ')
       .then((result) => {
         console.log(result.text);
+        form.current?.reset();
     }, (error) => {
         console.log(error.text);
     });
