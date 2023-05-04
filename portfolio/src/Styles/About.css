@@ -22,7 +22,6 @@ body {
 .summary {
     padding-top: 10px;
     padding-left: 0px;
-    padding-right: 30px;
     color: rgba(255, 255, 255, 0.551);
 }
 
@@ -37,5 +36,9 @@ body {
         grid-template-columns: 4fr 3fr;
         text-align: left;
         font-size: 20px;
+    }
+
+    .summary {
+        padding-right: 30px;
     }
   }
