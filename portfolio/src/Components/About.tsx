@@ -22,10 +22,15 @@ function About() {
               <span>Name: </span><span className="green">Swathi Sidharthan</span><br/>
               <hr></hr>
               <span>Email: swathysidharthan@gmail.com</span><br/>
-              <hr></hr>
-              <span>Address:  Dellensvägen 22, 120 58 Årsta</span><br/>
+              {/* <hr></hr>
+              <span>Address:  Dellensvägen 22, 120 58 Årsta</span><br/> */}
               <hr></hr>
               <span>City:</span> <span className="green">Stockholm</span><br/>
+              <hr></hr>
+              <span className='icon-group'>
+             <a href='http://www.linkedin.com/in/swathi-sidharthan'><img src='https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-vkm0drb1.png' alt='linkedin' className='icon'/></a>
+             <a href='https://github.com/dhyanswathi'><img src='https://static-00.iconduck.com/assets.00/github-icon-512x499-ziwq0a1i.png' alt='github' className='icon'/></a>
+            </span><br/>
             </article>
           </section> 
           </section>
