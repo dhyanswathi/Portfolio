@@ -1,11 +1,10 @@
 import React from "react";
-import home from "../Pictures/home.jpg";
 import '../Styles/About.css';
 
 function About() {
     return (
         <>
-          <section style={{ backgroundImage: home }}>
+          <section>
           <h1 className="heading">Hi! I am a<span className="green"> full-stack .Net </span>developer!</h1>
           <h2 className="sub-heading">Based in Stockholm, Sweden.</h2>
           <section className="know-me">   
